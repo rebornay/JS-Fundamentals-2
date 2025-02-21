@@ -11,3 +11,9 @@ function namer (){
 namer()
 namer()
 namer()
+
+function school () {
+    console.log("I am a student of AltSchool Africa")
+}
+
+school ()
