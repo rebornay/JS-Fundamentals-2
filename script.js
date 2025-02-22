@@ -17,3 +17,4 @@ function school () {
 }
 
 school ()
+school ()
