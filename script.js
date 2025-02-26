@@ -48,3 +48,20 @@ function add (a,b){
 let result = add(5,3);
 console.log(add(5,3));
 console.log(result);
+
+const multiply = function(x,y){
+    return x * y;
+};
+console.log(multiply(5,4));
+
+// function multiply(x,y){
+//     return x * y;
+// };
+// console.log(multiply(4,5));
+console.log(multiply(10,10));
+
+
+// Arrow functions
+const divison = (a,b) => a + b;
+
+console.log(divison(10,5))
