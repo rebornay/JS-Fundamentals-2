@@ -67,6 +67,7 @@ const divison = (a,b) => a + b;
 console.log(divison(10,5))
 */
 
+/*
 // Function declaration
 function calcAge1 (birthYear){
    return 2037 - birthYear;
@@ -83,6 +84,20 @@ const calcAge2 = function (birthYear){
 };
 const age2 = calcAge2(1991);
 
-console.log(age1, age2);
+console.log(age1, age2); 
+
+*/
 
 //We can call a function before they are defined in a code (only works for declarative functions)
+
+//Arrow function was added in Javascript ES6(2015)
+// Function expression
+const calcAge2 = function (birthYear){
+    return 2037 - birthYear;
+};
+
+// Arrow function
+
+const calcAge3 = birthYear => 2037 -birthYear;
+const age3 = calcAge3(1991);
+console.log(age3);
