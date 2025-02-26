@@ -29,3 +29,22 @@ console.log(appleJuice);
 const appleOrangeJuice = fruitProcessor(2,4);
 console.log(appleOrangeJuice);
 console.log(appleOrangeJuice);
+
+function sayHello(){
+    console.log(`Hello bro`);
+}sayHello();
+
+function greet(name) { // name is a parameter (placeholder)
+ console.log("Hello, " + name + `!`);
+}
+
+greet("Dauda") // Dauda here is an argument
+greet("Ayomide") // Ayomide here is an argument
+
+function add (a,b){
+    return a + b;
+}
+// add(5,3);
+let result = add(5,3);
+console.log(add(5,3));
+console.log(result);
