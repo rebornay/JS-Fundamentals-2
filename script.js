@@ -3,7 +3,7 @@
 // const private = 2025;
 
 // console.log(private);
-
+/*
 function namer (){
     console.log("My name is Ayomide");
 }
@@ -65,3 +65,12 @@ console.log(multiply(10,10));
 const divison = (a,b) => a + b;
 
 console.log(divison(10,5))
+*/
+
+// Function declaration
+function calcAge1 (birthYear){
+   return 2037 - birthYear;
+};
+
+const age1 = calcAge1(1999);
+console.log(age1);
