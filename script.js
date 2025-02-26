@@ -72,5 +72,17 @@ function calcAge1 (birthYear){
    return 2037 - birthYear;
 };
 
-const age1 = calcAge1(1999);
-console.log(age1);
+const age1 = calcAge1(1991);
+// console.log(age1);
+
+// Function expression
+// An expression produces a value and values are stored in a variable. 
+
+const calcAge2 = function (birthYear){
+    return 2037 - birthYear;
+};
+const age2 = calcAge2(1991);
+
+console.log(age1, age2);
+
+//We can call a function before they are defined in a code (only works for declarative functions)
