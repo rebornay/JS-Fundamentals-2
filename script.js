@@ -109,5 +109,4 @@ const yearUntilRetirement = birthYear => {
 };
 
 console.log(yearUntilRetirement(1991));
-console.log(yearUntilRetirement(2000));
-console.log(yearUntilRetirement(2015));
+console.log(yearUntilRetirement(19951));
