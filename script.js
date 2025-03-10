@@ -115,4 +115,5 @@ console.log(yearUntilRetirement(1980, 'Bob'));
 console.log(yearUntilRetirement(1980, 'hom'));
 console.log(yearUntilRetirement(1980, 'moh'));
 console.log(yearUntilRetirement(1980, 'Java'));
+console.log(yearUntilRetirement(1980, 'Script'));
 
